@@ -1,0 +1,11 @@
+[all]
+64.226.74.71
+207.154.235.157
+
+[apache]
+64.226.74.71
+207.154.235.157
+
+
+[all:vars]
+ansible_python_ibterpreter = /usr/bin/python3

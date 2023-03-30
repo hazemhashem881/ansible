@@ -1,0 +1,12 @@
+---
+- name : Baseline Configuration
+  hosts : all
+  user: root  
+  roles:
+    - role: base
+
+- name : Apache
+  hosts : apache
+  user: root  
+  roles:
+  - role: apache         
